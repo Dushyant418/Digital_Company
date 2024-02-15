@@ -50,3 +50,6 @@
     background-image: url(../src/images/bg-4.png);
     background-size: 100% 100%;
 }
+.hover:hover{
+    box-shadow: 17px 17px 5px 0px rgba(133, 112, 219, 1);
+}

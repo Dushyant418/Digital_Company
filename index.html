@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <section class="bg_img bg-no-repeat">
         <div class="container mx-auto px-3">
             <nav class=" flex items-center justify-between py-[20px]">
@@ -185,7 +186,8 @@
     </section>
     <section class="bg_img-3">
         <div class="max-w-[1170px] mx-auto px-[12px]">
-            <div class="flex flex-col items-center justify-center pt-[90px] lg:pt-[194px] pb-[90px] lg:pb-[184px]">
+            <div
+                class="flex flex-col items-center justify-center pt-[90px] lg:pt-[194px] pb-[90px] lg:pb-[184px] relative">
                 <p class="text-[#BBC9FE] text-[12px] leading-[34px] uppercase font-DMsans">how it works</p>
                 <h3 class="text-white font-medium text-[48px] leading-[58.56px] pt-[14px] pb-[24px] font-DMsans">Our
                     Process</h3>
@@ -201,7 +203,7 @@
                     solve all
                     business
                     problems</p>
-                <div class="bg-white rounded-[15px]">
+                <div class="bg-white rounded-[15px] z-[1]">
                     <div class="flex flex-wrap items-center mx-[-12px] max-lg:p-5">
                         <div class="md:w-[50%] px-[12px]">
                             <img src="../src/images/card-1.png" class="w-full" alt="">
@@ -222,7 +224,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-[15px] mt-[40px]">
+                <div class="bg-white rounded-[15px] mt-[40px] z-[1]">
                     <div class="flex flex-wrap items-center mx-[-12px] max-lg:p-5">
                         <div class="md:w-[50%] px-[12px]">
                             <img src="../src/images/card-2.png" class="w-full" alt="">
@@ -239,7 +241,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-[15px] mt-[40px]">
+                <div class="bg-white rounded-[15px] mt-[40px] z-[1]">
                     <div class="flex flex-wrap items-center mx-[-12px] max-lg:p-5">
                         <div class="md:w-[50%] px-[12px]">
                             <img src="../src/images/card-3.png" class="w-full" alt="">
@@ -256,6 +258,9 @@
                                 review of your transactions.</p>
                         </div>
                     </div>
+                </div>
+                <div class=" h-[600px] lg:h-[800px]  border border-dashed absolute top-[500px] hidden md:block  z-0">
+
                 </div>
             </div>
         </div>
@@ -339,7 +344,7 @@
         <div class="max-w-[1180px] mx-auto px-3">
             <div class="flex md:items-center flex-wrap justify-between pt-[84px] pb-[27px]">
                 <div class="max-lg:pb-[24px]">
-                    <img src="../src/images/logo.png" alt="footer-logo">
+                    <a href=""><img src="../src/images/logo.png" alt="footer-logo"></a>
                 </div>
                 <ul class="flex  gap-[32px] flex-wrap">
                     <li><a href="#"
@@ -398,7 +403,7 @@
         </div>
     </section>
     <button id="to-top-button" onclick="goToTop()" title="Go To Top"
-        class="hidden fixed z-90 bottom-8 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-gradient-to-tl from-[#35d3ff] to-[#a963fb] text-white text-3xl font-bold">&uarr;</button>
+        class="hidden fixed z-90 bottom-8 right-8 border-0 w-12 h-12 rounded-full animate-bounce drop-shadow-md bg-gradient-to-tl from-[#35d3ff] to-[#a963fb] text-white text-3xl font-bold">&uarr;</button>
     <script>
         const menuicon = document.querySelector(".menuicon")
         const menulist = document.querySelector(".menulist")
