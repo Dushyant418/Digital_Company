@@ -3059,9 +3059,6 @@ video {
   background-color: rgb(169 99 251 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-\[\]:hover{
-  background-color: ;
-}
 
 .hover\:bg-\[\#35d3ff\]:hover{
   --tw-bg-opacity: 1;
@@ -3097,9 +3094,7 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.hover\:text-\[\]:hover{
-  color: ;
-}
+
 
 .hover\:text-\[\#a963fb\]:hover{
   --tw-text-opacity: 1;
